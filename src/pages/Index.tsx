@@ -111,7 +111,10 @@ const Index = () => {
             <span className="font-heading font-bold text-xl">Наш классный мир</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © 2024 Остров знаний. Интерактивная онлайн-школа для детей.
+            © 2026 Остров знаний. Интерактивная онлайн-школа для детей.
+          </p>
+          <p className="text-xs text-muted-foreground mt-2">
+            Создатель: Зарина Насырова
           </p>
         </div>
       </footer>
