@@ -11,24 +11,14 @@ const ContactPage = () => {
         <p className="text-muted-foreground">Мы всегда рады помочь!</p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-4">
+      <div className="max-w-md mx-auto">
         <Card className="hover-scale">
           <CardHeader>
             <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
               <Icon name="Mail" size={24} className="text-primary" />
             </div>
             <CardTitle>Email</CardTitle>
-            <CardDescription>info@island-school.ru</CardDescription>
-          </CardHeader>
-        </Card>
-
-        <Card className="hover-scale">
-          <CardHeader>
-            <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-2">
-              <Icon name="Phone" size={24} className="text-secondary" />
-            </div>
-            <CardTitle>Телефон</CardTitle>
-            <CardDescription>+7 (999) 123-45-67</CardDescription>
+            <CardDescription>zarina.ig179@gmail.ru</CardDescription>
           </CardHeader>
         </Card>
       </div>
